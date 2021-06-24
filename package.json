@@ -1,0 +1,17 @@
+{
+  "name": "webRTC-Demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^2.0.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "socket.io": "^4.1.2"
+  }
+}
